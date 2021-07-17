@@ -1,0 +1,147 @@
+body, html {
+   height: 50%;
+  
+}
+
+#container{
+   
+    background-image: url("../images/ayi.jpg");
+    height: 50%;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container .left {
+    
+    position: absolute;
+   
+    
+}
+
+#container.right {
+    font-size: 20px;
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    padding: 16px;
+   
+}
+
+
+#container .right .nav-bar {
+    margin: 16px 32px;
+}
+
+#container .right .nav-bar .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: nowrap;
+}
+
+#container .right .nav-bar .nav .nav-item {
+    padding: 14px 8px;
+    position: relative;
+    color: white;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.row .col-2 {
+    width: calc(100% / 3);
+}
+
+#services .service {
+    background-color: whitesmoke;
+    padding: 22px;
+    text-align:center;
+    color: burlywood;
+}
+
+#services .service .service-image {
+    width: 50%;
+    margin: auto;
+}
+
+#services .service .service-image img {
+    width: 100%;
+}
+
+#services .service .title {
+    font-size: 20px;
+    font-weight: 1000;
+    margin: 20px 0 16px;
+}
+
+#services .service .info {
+    font-weight: 400;
+}
+
+#works .content .title{
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: 1000;
+    margin: 20px 0 16px;
+}
+
+#works .content .info{
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0 16px;
+}
+
+
+#works .work .nav-bar {
+    margin: 16px 32px;
+}
+
+#works .work .nav-bar .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: nowrap;
+    background-color: thistle;
+}
+
+#works .work .nav-bar .nav .nav-work {
+    flex-direction: row;
+    padding: 8px 16px;
+    position: relative;
+}
+#row2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+#row2 .col-3 {
+    width: calc(100% / 3);
+}
+
+
+#images .image .work-image {
+    width: 30%;
+    margin: auto;
+}
+
+#images .image .work-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#images .image {
+    display: flex;
+    flex-wrap: wrap;
+}
